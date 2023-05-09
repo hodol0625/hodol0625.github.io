@@ -41,6 +41,18 @@ hadoop 기초
 
 #### 기본 DATALAKE 구조
 
+#### 기본 Architecture 소개
+- AWS Glue
+- AWS Athena
+- AWS QuickSight
+- AWS MWAA
+- AWS 인프라 (IAM, VPN, ...)
+- AWS SageMaker, 
+- 기타 (gitlab, alert 체계, data 삭제 정책, 암호화, 계정관리 등..)
 
-### 결론
-...
+
+---
+참고자료
+
+- ...
+- ...
