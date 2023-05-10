@@ -1,5 +1,5 @@
 ---
-title: "거꾸로 보는 Catboost"
+title: "Machine Learning 주요 개념 : Overfitting"
 comments: true
 # other options
 
@@ -7,7 +7,9 @@ comments: true
 published: false
 ---
 
-# 거꾸로 보는 Catboost
+#### Keywords
+- Bias Variance Tradeoff
+- Regularization
  
 
 ## python code 실행하기
@@ -16,7 +18,39 @@ from catboost import CatboostClassifier
 # 예제 코드 보여주기
 ```
 
-## 문제 정의
+### 머신러닝에서 러닝(학습) 이라는 개념
+
+과거에 일어난 패턴을 구분하는 "기준" 을 학습하는 것. 
+
+예를 들어, 3과 8를 구분하는 머신러닝 모델을 만든다고 하면
+모델은 3과 8를 구분하는 어떤 기준점을 생성해야 할 것이다.
+
+그런데 모델이 컴퓨터로 작성된 숫자만 가지고 학습을 했다고 보면,
+사람이 필기체로 작성한 3과 8은 구분이 어렵다.(?)
+
+
+### 1. Decision tree
+
+의사결정나무는 매우 기본적이고 핵심이 되는 알고리즘.
+
+장점 : 
+
+단점 : Overfitting 
+
+
+### 2. Random Forest
+
+Ensemble 이란.. 
+
+왜 Ensemble의 성능이 좋을까?
+
+### 3. Gradient Boosting
+
+Gradient 와 Boosting 용어 이해
+
+### 4. XGBoost 와 LightGBM의 등장
+
+### 5. Catboost 등장
 
 온라인 광고 시장에서는 고객이 어떤 광고를 click할 지 예측하는게 중요하다. 예를 들어, 삼성전자가 신규 가전제품 광고를 1000개를 노출해달라고 했는데, 그 광고 1000개를 클릭할 것 같은 고객에게 보내는 것과, 무작위로 노출 시키는 것은 분명 고객 경험에 차이가 있을 것이다.
 
